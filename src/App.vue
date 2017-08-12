@@ -1,11 +1,14 @@
 <template lang="pug">
   #app
-    img(src="./assets/logo.png")
+    vue-logo
     h1 {{ msg }}
-    el-button(@click.native="startHacking" type="primary") Yes!
+    el-button(@click.native="startHacking" type="primary" size="large") Yes!
+    router-view
 </template>
 
 <script>
+
+import vueLogo from '@/components/Logo'
 export default {
   name: 'app',
   data () {
@@ -16,11 +19,14 @@ export default {
   methods: {
     startHacking () {
       this.$notify({
-        title: 'Shhh',
-        message: 'Just be patient...',
+        title: 'Vue JS + Element UI',
+        message: 'Progressive JavaScript Framework and Component Library for developers',
         duration: 6000
       })
     }
+  },
+  components: {
+    vueLogo
   }
 }
 </script>
