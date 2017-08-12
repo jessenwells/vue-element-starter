@@ -2,7 +2,7 @@
   #app
     img(src="./assets/logo.png")
     h1 {{ msg }}
-    el-button(@click.native="startHacking") Yes!
+    el-button(@click.native="startHacking" type="primary") Yes!
 </template>
 
 <script>
@@ -26,8 +26,6 @@ export default {
 </script>
 
 <style lang="stylus">
-#app
-  font-family sans-serif
-  text-align center
+@import 'style/main.styl'
 </style>
 

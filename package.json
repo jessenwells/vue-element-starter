@@ -4,6 +4,10 @@
   "description": "~",
   "author": "Jesse <jessenwells@gmail.com>",
   "private": true,
+  "element-theme": {
+    "out": "./src/style/element",
+    "config": "./src/style/element-custom.css"
+  },
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
@@ -27,6 +31,7 @@
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.0",
     "cssnano": "^3.10.0",
+    "element-theme-default": "^1.4.2",
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.14.1",
     "extract-text-webpack-plugin": "^2.0.0",
