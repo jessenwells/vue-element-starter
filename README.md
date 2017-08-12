@@ -1,6 +1,6 @@
 # my-element-starter
 
-> Vue.js 2 Boilerplate - Based on Vuejs-templates/Webpack with Element-UI, Pug, Stylus
+> Vue.js 2 Boilerplate - with Element-UI, Pug, Stylus - Based on Vuejs-templates/Webpack
 
 ## Build Setup
 
