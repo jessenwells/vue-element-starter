@@ -2,6 +2,8 @@
 
 > Vue.js 2 Boilerplate - with Element-UI / Pug / Stylus - based on vuejs-templates/Webpack
 
+![](scrn.png)
+
 ## Build Setup
 
 ``` bash
