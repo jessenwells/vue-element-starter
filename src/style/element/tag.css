@@ -91,7 +91,7 @@
 }
 
 .el-tag{
-    background-color: rgb(131, 165, 154);
+    background-color: rgb(131, 142, 165);
     display: inline-block;
     padding: 0 5px;
     height: 24px;
@@ -121,52 +121,52 @@
 
 .el-tag .el-icon-close:hover{
     background-color: #fff;
-    color: rgb(131, 165, 154)
+    color: rgb(131, 142, 165)
 }
 
 .el-tag--gray{
-    background-color: rgb(228, 241, 239);
-    border-color: rgb(228, 241, 239);
-    color: rgb(72, 106, 95)
+    background-color: rgb(228, 231, 241);
+    border-color: rgb(228, 231, 241);
+    color: rgb(72, 84, 106)
 }
 
 .el-tag--gray .el-tag__close:hover{
-    background-color: rgb(72, 106, 95);
+    background-color: rgb(72, 84, 106);
     color: #fff
 }
 
 .el-tag--gray.is-hit{
-    border-color: rgb(72, 106, 95)
+    border-color: rgb(72, 84, 106)
 }
 
 .el-tag--primary{
-    background-color: rgba(66, 184, 131, 0.1);
-    border-color: rgba(66, 184, 131, 0.2);
-    color: #42b883
+    background-color: rgba(53, 73, 94, 0.1);
+    border-color: rgba(53, 73, 94, 0.2);
+    color: #35495e
 }
 
 .el-tag--primary .el-tag__close:hover{
-    background-color: #42b883;
+    background-color: #35495e;
     color: #fff
 }
 
 .el-tag--primary.is-hit{
-    border-color: #42b883
+    border-color: #35495e
 }
 
 .el-tag--success{
     background-color: rgba(18,206,102,0.10);
     border-color: rgba(18,206,102,0.20);
-    color: #13ce66
+    color: #42b883
 }
 
 .el-tag--success .el-tag__close:hover{
-    background-color: #13ce66;
+    background-color: #42b883;
     color: #fff
 }
 
 .el-tag--success.is-hit{
-    border-color: #13ce66
+    border-color: #42b883
 }
 
 .el-tag--warning{

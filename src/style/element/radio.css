@@ -91,7 +91,7 @@
 }
 
 .el-radio{
-    color: rgb(31, 61, 50);
+    color: rgb(31, 42, 61);
     position: relative;
     cursor: pointer;
     display: inline-block;
@@ -116,12 +116,12 @@
 }
 
 .el-radio__input.is-focus .el-radio__inner{
-    border-color: #42b883;
+    border-color: #35495e;
 }
 
 .el-radio__input.is-checked .el-radio__inner{
-    border-color: #42b883;
-    background: #42b883
+    border-color: #35495e;
+    background: #35495e
 }
 
 .el-radio__input.is-checked .el-radio__inner::after{
@@ -129,14 +129,14 @@
 }
 
 .el-radio__input.is-disabled .el-radio__inner{
-    background-color: rgb(238, 246, 244);
-    border-color: rgb(209, 229, 222);
+    background-color: rgb(238, 240, 246);
+    border-color: rgb(209, 217, 229);
     cursor: not-allowed
 }
 
 .el-radio__input.is-disabled .el-radio__inner::after{
     cursor: not-allowed;
-    background-color: rgb(238, 246, 244);
+    background-color: rgb(238, 240, 246);
 }
 
 .el-radio__input.is-disabled .el-radio__inner + .el-radio__label{
@@ -144,8 +144,8 @@
 }
 
 .el-radio__input.is-disabled.is-checked .el-radio__inner{
-    background-color: rgb(209, 229, 222);
-    border-color: rgb(209, 229, 222);
+    background-color: rgb(209, 217, 229);
+    border-color: rgb(209, 217, 229);
 }
 
 .el-radio__input.is-disabled.is-checked .el-radio__inner::after{
@@ -158,7 +158,7 @@
 }
 
 .el-radio__inner{
-    border: 1px solid rgb(191, 217, 208);
+    border: 1px solid rgb(191, 200, 217);
     border-radius: 100%;
     width: 18px;
     height: 18px;
@@ -171,7 +171,7 @@
 }
 
 .el-radio__inner:hover{
-    border-color: #42b883;
+    border-color: #35495e;
 }
 
 .el-radio__inner::after{

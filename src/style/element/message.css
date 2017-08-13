@@ -106,7 +106,7 @@
 }
 
 .el-message .el-icon-circle-check{
-    color: #13ce66;
+    color: #42b883;
 }
 
 .el-message .el-icon-circle-cross{
@@ -136,7 +136,7 @@
     font-size: 14px;
     margin: 0 34px 0 0;
     white-space: nowrap;
-    color: rgb(131, 165, 154);
+    color: rgb(131, 142, 165);
     text-align: justify;
 }
 
@@ -162,12 +162,12 @@
     right: 0;
     position: absolute;
     cursor: pointer;
-    color: rgb(191, 217, 208);
+    color: rgb(191, 200, 217);
     font-size: 14px;
 }
 
 .el-message__closeBtn:hover{
-    color: rgb(151, 190, 178);
+    color: rgb(151, 164, 190);
 }
 
 .el-message-fade-enter, .el-message-fade-leave-active {

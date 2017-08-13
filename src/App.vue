@@ -1,37 +1,36 @@
 <template lang="pug">
   #app
-    vue-logo
-    h1 {{ msg }}
-    el-button(@click.native="startHacking" type="primary" size="large") Yes!
+    el-menu(:default-active='activeIndex', mode='horizontal' theme="dark")
+      el-menu-item(index='1') First Item
+      el-submenu(index='2')
+        span(slot='title') Second Item
+        el-menu-item(index='2-1') item one
+        el-menu-item(index='2-2') item two
+        el-menu-item(index='2-3') item three
+    svg-logo
     router-view
 </template>
 
 <script>
-
-import vueLogo from '@/components/Logo'
+import svgLogo from '@/components/Logo'
 export default {
   name: 'app',
-  data () {
-    return {
-      msg: 'Want something new?'
-    }
-  },
-  methods: {
-    startHacking () {
-      this.$notify({
-        title: 'Vue JS + Element UI',
-        message: 'Progressive JavaScript Framework and Component Library for developers',
-        duration: 6000
-      })
-    }
-  },
+  data() {
+      return {
+        activeIndex: '1',
+        activeIndex2: '1'
+      };
+    },
   components: {
-    vueLogo
+    svgLogo
   }
 }
 </script>
 
 <style lang="stylus">
 @import 'style/main.styl'
+
+.el-menu
+  z-index 10
 </style>
 
