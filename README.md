@@ -4,6 +4,10 @@
 
 ##
 
+[Demo](demo/index.html)
+
+##
+
 ![](template/scrn.png)
 
 ## Usage
@@ -16,5 +20,5 @@ npm run dev
 
 ## Documentation
 
-- [For this template](http://vuejs-templates.github.io/webpack): common questions specific to this template are answered and each part is described in greater detail
+- [For vuejs-templates/webpack](http://vuejs-templates.github.io/webpack): common questions specific to this template are answered and each part is described in greater detail
 - [For Vue 2.0](http://vuejs.org/guide/): general information about how to work with Vue, not specific to this template
