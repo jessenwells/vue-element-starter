@@ -4,7 +4,7 @@
 
 ##
 
-[Demo](demo/index.html)
+[Demo](https://jessenwells.github.io/vue-element-starter-demo/)
 
 ##
 
