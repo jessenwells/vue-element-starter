@@ -1,2 +1,3 @@
 template/src/style/* linguist-vendored
 template/build/* linguist-vendored
+template/config/* linguist-vendored
